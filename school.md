@@ -40,3 +40,14 @@ View Proposal By ID
 ```
 gaiad query gov proposal 1
 ```
+
+Vote YES for proposal 1
+```
+gaiad tx gov vote 1 yes --from mykey
+```
+
+Query votes on a proposal 1
+
+```
+gaiad query gov votes 1
+```
