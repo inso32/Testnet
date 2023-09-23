@@ -1,6 +1,14 @@
 
 ## **Useful commands**
 
+Edit existing validator
+```
+gaiad tx staking edit-validator \
+--new-moniker "Atlas.Node" \
+--chain-id school-testnet-4 \
+--from cosmos1nu40yhxxwrht2v2ujnch3asruhk87ttx796g3v
+```
+
 List all keys
 
 ```
@@ -12,9 +20,8 @@ Find out the address
 gaiad keys show Atlas.Node -a
 ~~~
 
-How to find out address and voloperaddress using explorer?
+How to find out address and voloperaddress using explorer? Open the validator and click on the transaction at the bottom in the Transactions section.
 
-Open the validator and click on the transaction at the bottom in the Transactions section.
 
 ## **Balance**
 
